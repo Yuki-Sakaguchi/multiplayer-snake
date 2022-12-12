@@ -1,0 +1,27 @@
+{
+  "name": "multiplayer-snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuki-Sakaguchi/multiplayer-snake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuki-Sakaguchi/multiplayer-snake/issues"
+  },
+  "homepage": "https://github.com/Yuki-Sakaguchi/multiplayer-snake#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
